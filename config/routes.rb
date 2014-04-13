@@ -1,4 +1,12 @@
 CompetencyTestingQuestions::Application.routes.draw do
+  get "account/create"
+
+  get "account/list"
+
+  get "account/update"
+
+  get "account/delete"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
