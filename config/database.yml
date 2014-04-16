@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: competencyTestingQuestions_development
+  database: compTest_dev
   pool: 5
-  username: root
-  password:
+  username: compTest_dev
+  password: compTest_dev
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -25,17 +25,17 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: competencyTestingQuestions_test
+  database: compTest_test
   pool: 5
-  username: root
-  password:
+  username: compTest_test
+  password: compTest_test
   host: localhost
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: competencyTestingQuestions_production
+  database: compTest_prod
   pool: 5
   username: root
   password:

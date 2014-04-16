@@ -15,3 +15,5 @@
 /tmp
 .project
 .buildpath
+*~
+db/schema.rb

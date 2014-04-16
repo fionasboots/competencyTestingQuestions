@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,6 +19,8 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'rails_12factor', group: :production
 
 gem 'jquery-rails'
 
@@ -36,3 +38,7 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+ruby '2.0.0'
+
+
