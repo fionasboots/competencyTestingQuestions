@@ -1,13 +1,13 @@
 <h1>Account#list</h1>
 <p>Find me in app/views/account/list.html.erb</p>
 
-<% if ! @accounts %>
+<% if @accounts.nil? || @accounts.length < 1 %>
 <p>No Accounts yet</p>
 <% else %>
-<ul
-      @accounts.each do |account| %>
+<ul>
+<%      @accounts.each do |account| %>
 <li>ID: <%= account.id %> Email: <%= account.email %></li>
 
-<% end %>
+<% 	    end %>
 </ul>
 <% end %>
