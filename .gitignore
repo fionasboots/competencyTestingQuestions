@@ -17,3 +17,4 @@
 .buildpath
 *~
 db/schema.rb
+vendor/bundle
